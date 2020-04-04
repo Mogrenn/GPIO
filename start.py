@@ -9,6 +9,10 @@ GPIO.setup(27, GPIO.OUT) #IN1 FOR MOTOR 1
 GPIO.output(17, GPIO.HIGH)
 GPIO.output(27, GPIO.HIGH)
 
+GPIO.output(17, GPIO.low)
+GPIO.output(27, GPIO.low)
+
+
 #while True:
     #GPIO.output(17, GPIO.HIGH)
     #GPIO.output(27, GPIO.HIGH)
