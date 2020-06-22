@@ -27,9 +27,9 @@ def on_release(key):
         # Stop listener
         return False
     elif key.char == 'w':
-        GPIO.output(17, GPIO.HIGH)
+        GPIO.output(17, GPIO.LOW)
     elif key.char == "s":
-        GPIO.output(27, GPIO.HIGH)
+        GPIO.output(27, GPIO.LOW)
 
 
 # Collect events until released
