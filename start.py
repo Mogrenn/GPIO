@@ -71,7 +71,7 @@ while (1):
         p.ChangeDutyCycle(75)
         x = 'z'
 
-    elif x == 'l':
+    elif x == 'le':
         print("left")
         p.ChangeDutyCycle(5)
         x = 'z'
