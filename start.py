@@ -13,9 +13,9 @@ def on_press(key):
     try:
         if key.char == 'w':
             print("hje")
-            # GPIO.output(17, GPIO.HIGH)
+            GPIO.output(17, GPIO.HIGH)
         elif key.char == "s":
-            # GPIO.output(27, GPIO.HIGH)
+            GPIO.output(27, GPIO.HIGH)
     except Exception as e:
         print(e)
 
