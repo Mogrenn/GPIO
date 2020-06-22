@@ -11,5 +11,6 @@ GPIO.setup(27, GPIO.OUT) #IN2 FOR MOTOR 2
 #GPIO.output(17, GPIO.LOW)
 #GPIO.output(27, GPIO.LOW)
 while True:
+    GPIO.output(17, False)
     GPIO.output(27, True)
 #GPIO.output(27, True)
